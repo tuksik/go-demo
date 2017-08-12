@@ -16,7 +16,7 @@ services:
     ports:
       - 5000:5000
     volumes:
-      - .:/var/lib/registry
+      - /hosthome/tuxar/dock/vfarcic/devops2.1/01/vfarcic-go-demo:/var/lib/registry
     restart: always
 
   consul-server:
